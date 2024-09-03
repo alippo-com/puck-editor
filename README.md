@@ -1,6 +1,6 @@
 # Puck
 
-The visual editor for React.
+(Duplicate Repo) This is the public forked repository of Puck. Refer private repo for changes.
 
 <p align="left">
   <a aria-label="Measured logo" href="https://measured.co">
