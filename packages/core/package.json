@@ -48,6 +48,10 @@
     "dist"
   ],
   "devDependencies": {
+    "@lobehub/ui": "^1.146.4",
+    "ahooks": "^3.8.0",
+    "antd": "^5.19.1",
+    "antd-style": "^3.6.2",
     "@testing-library/react": "^14.0.0",
     "@types/deep-diff": "^1.0.3",
     "@types/jest": "^29.5.4",
@@ -76,6 +80,7 @@
     "uuid": "^9.0.1"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0"
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0"
   }
 }

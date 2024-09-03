@@ -28,3 +28,57 @@
   position: sticky;
   top: 0;
 }
+.button-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px;
+}
+
+.gradient-button {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(135deg, #6253e1, #04befe);
+  transition: all 0.3s;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.gradient-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #6253e1, #04befe);
+  opacity: 1;
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+.gradient-button:hover::before {
+  opacity: 0;
+}
+
+.gradient-button:active {
+  transform: scale(0.98);
+}
+
+.gradient-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.6);
+}
+
+.gradient-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.drawer-content {
+  padding: 20px;
+}
+
